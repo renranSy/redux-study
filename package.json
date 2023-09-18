@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "sunyang <2480901422@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
 }
