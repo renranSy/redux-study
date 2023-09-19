@@ -1,4 +1,4 @@
-import {createStore} from 'redux'
+import { createStore } from 'redux'
 
 // 用来记录 old state
 let recordState
@@ -29,7 +29,6 @@ const reducer = function (state = initialState, action) {
 // 创建 store
 const store = createStore(reducer)
 
-const root = document.getElementById('app');
 const addBook = document.getElementById('addBook');
 const delBook = document.getElementById('delBook');
 const bookList = document.getElementById('bookList');
