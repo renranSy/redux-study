@@ -4,9 +4,15 @@
   "main": "index.js",
   "author": "sunyang <2480901422@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js"
+  },
   "devDependencies": {
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "redux": "^4.2.1"
   }
 }
