@@ -72,6 +72,9 @@ OK，在了解了<u>Redux</u>的基础概念之后，相信你已经知道了**s
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "redux": "^4.2.1"
   }
 }
 ```
